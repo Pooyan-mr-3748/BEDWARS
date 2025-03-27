@@ -1,0 +1,7 @@
+main: sergittos\bedwars\BedWars
+name: Bedwarsfix
+api: 5.0.0
+version: 1.0.10
+author: Pooyan3748
+website: pmme.ir
+description: A BedWars plugin for PocketMine-MP
