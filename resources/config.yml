@@ -1,0 +1,30 @@
+# The version
+version: 1.0
+
+# The IP that will be showed on the scoreboard and the bossbar
+ip: "Play.clpe.ir"
+
+# Players won't be able to break/place blocks or receive damage on the lobby if this is enabled
+spawn-protection: true
+
+# PINK = 0
+# BLUE = 1
+# RED = 2
+# GREEN = 3
+# YELLOW = 4
+# PURPLE = 5
+# REBECCA_PURPLE = 6
+# WHITE = 7
+Bossbar-Color: 2
+
+# Provider
+# Available providers: sqlite, mysql, json
+provider: "mysql"
+
+# MySQL
+mysql-credentials:
+  hostname: "127.0.0.1"
+  username: "root"
+  password: ""
+  database: "bed"
+  port: 3306

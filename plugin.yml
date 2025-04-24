@@ -1,0 +1,22 @@
+main: sergittos\bedwars\BedWars
+name: Bedwarsfix
+api: 5.0.0
+version: 1.0.10
+author: Pooyan3748
+website: pmme.ir
+description: A BedWars plugin for PocketMine-MP
+commands:
+
+  leave:
+    description: "Leave Game"
+    permission: leave.cmd
+  party:
+    description: "party setting"
+    usage: "/party <create|invite|accept|leave|list>"
+    permission: party.cmd
+permissions:
+  leave.cmd:
+    description: "Leave Game"
+    default: true
+  party.cmd:
+    default: true
